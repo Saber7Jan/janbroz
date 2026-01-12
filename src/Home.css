@@ -1,0 +1,130 @@
+/* Targets & Collaborators social footer */
+.targets-footer {
+  width: 100vw;
+  background: transparent;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 0 1.5rem 0;
+  margin-top: 2.5rem;
+  position: relative;
+  z-index: 10;
+}
+.targets-follow-label {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffb347;
+  margin-bottom: 1.3rem;
+  letter-spacing: 1px;
+}
+.targets-social-row {
+  display: flex;
+  align-items: center;
+  gap: 2.7rem;
+}
+.targets-social-link {
+  color: #fff;
+  font-size: 2.8rem;
+  opacity: 0.92;
+  transition: color 0.18s, opacity 0.18s, transform 0.18s;
+  display: flex;
+  align-items: center;
+}
+.targets-social-link:hover {
+  color: #ffb347;
+  opacity: 1;
+  transform: scale(1.18);
+}
+
+.home-hero {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  flex: 1;
+}
+.home-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+}
+.home-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.45);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-content {
+  color: #fff;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: rgba(0,0,0,0.25);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content-centered {
+  justify-content: center;
+}
+
+.home-social-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.7rem;
+  justify-content: center;
+}
+
+.home-social-link {
+  color: #fff;
+  font-size: 2.1rem;
+  opacity: 0.85;
+  transition: color 0.18s, opacity 0.18s;
+}
+.home-social-link:hover {
+  color: #ffb347;
+  opacity: 1;
+}
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
+.home-subtitle {
+  font-size: 1.5rem;
+  color: #ffb347;
+  margin-bottom: 1.5rem;
+}
+.home-script {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .home-title { font-size: 2rem; }
+  .home-subtitle { font-size: 1.1rem; }
+  .home-content { padding: 1.2rem 0.5rem; }
+}
